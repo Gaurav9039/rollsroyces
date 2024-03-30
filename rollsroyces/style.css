@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#left{
+    height: 100%;
+    width: 70%;
+    position: inherit;
+}
+#right{
+    height: 100%;
+    width: 30%;
+    background-color: cadetblue;
+}
+#nav{
+    position: absolute;
+    top:0%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav h1{
+    font-size: 18px;
+    font-family: "Anurati";
+    letter-spacing: 8px;
+    color: white;
+
+}
+#nav i{
+    font-size: 23px;
+    color: black;
+    z-index: 99;
+}
+#left #box1{
+    height:50px;
+    width: 250px;
+    background: linear-gradient(#111b31, #070712);
+    position: absolute;
+    top: 60%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    transform-origin:10% 50% ;
+    transform: rotate(-90deg);
+}
+#box1 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+#logo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    gap: 30px;
+    padding-top: 40px;
+}
+#logo #img1 {
+    height: 60px;
+    width: 120px;
+}
+#logo h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 15px;
+}
+#logo h2{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    line-height: 20px;
+
+}
+
+#rollimg{
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+#rollimg img{
+    height: 380px;
+}
+#left>button{
+    padding: 12px 50px;
+    border-radius: 35px;
+    font-size: 18px;
+    background-color: #fff;
+    position: absolute;
+    left: 65%;
+    bottom: 5%;
+    text-transform: uppercase;
+
+}
+
+#right{
+    background: linear-gradient(#111b31, #070712);
+    
+}
+#right #text{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50PX;
+    /* background-color: aqua; */
+}
+#text img{
+    height: 200px;
+    width: 300px;
+}
+#text h2{
+    margin-bottom: 20px;
+}
+#text h4{
+    text-decoration: underline;
+}
+#text p{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 110px;
+
+}
